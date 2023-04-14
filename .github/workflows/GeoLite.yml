@@ -4,7 +4,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron: 0 1 */3 * *
+    - cron: 3 3 */3 * *
 
 jobs:
   run:
